@@ -8,8 +8,8 @@ body {
 }
 
 .container {
-  margin: 15px auto;
-  width: 500px;
+  margin: 30px auto;
+  width: 600px;
 }
 
 @media (max-width: 540px) {
@@ -20,7 +20,7 @@ body {
 
 .card {
     background-color: white;
-    padding: 20px;
+    padding: 30px 40px;
     margin: 15px auto;
     border-radius: 5px;
     box-shadow: 0px 1px 1px #ffcdcd;
@@ -51,6 +51,7 @@ p {
     text-align: justify;
     width: 80%;
     margin: 10px auto;
+    letter-spacing: 0.023em;
 }
 
 ul {
@@ -64,11 +65,11 @@ ul {
 
 a {
   text-decoration: none;
-  color: #ffcdcd;
+  color: #f57665;
 }
 
 a:hover {
-  color: #f57665;
+  color: #cd5555;
 }
 
 #selfie {
