@@ -1,0 +1,57 @@
+.profile {
+  width: 100%;
+  height: 395px;
+  min-width: 0;
+  background-color: #FEFFDF;
+}
+
+#selfie {
+  width: 100px;
+  margin: 40px 0 0 0;
+  border: 2px solid #FFA952;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.contact {
+  margin: 20px 0 0 0;
+}
+
+.contact img {
+  margin: 0 10px 0 0;
+}
+
+.email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.phone {
+  height: 20px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.phone div {
+  display: flex;
+  flex-direction: column;
+}
+
+.slogan {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.slogan span {
+  font-size: 12px;
+  line-height: 16px;
+}
+

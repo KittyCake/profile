@@ -8,90 +8,201 @@
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   <!-- Fontawesome Stylesheet -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="stylesheet/style.css">
 </head>
 <body>
-  <div class="container">
-    <div class="card">
-      <img src="images/kitty.jpg" alt="Kitty" class="img-circle" id="selfie">
-      <h1>Chen Sz Ting</h1>
-      <h2>Le Wagon Batch#194 Student</h2>
-      <p>I like trying every kinds of food, playing volleyball, reading comic books and CODING!! Of course!! </p>
+  <div id="navbar">
+    <div class="nav-container">
+          <div id="logo">
+
+          </div>
+          <ul>
+            <li class="list_inline">ABOUT ME</li>
+            <li class="list_inline">PORTFOLIO</li>
+            <li class="list_inline">MORE</li>
+          </ul>
+        </div>
+  </div>
+
+  <div id="page-content">
+    <div class="profile card">
+      <div class="container">
+        <img src="images/kitty.jpg" alt="Kitty" class="img-circle" id="selfie">
+        <h1>CHEN SZ TING</h1>
+        <p>Taiwan, Taipei</p>
+        <div class="contact">
+          <div class="email">
+            <img src="images/email.svg" alt="email">
+            <span>kimikamis@gmail.com</span>
+          </div>
+          <div class="phone">
+            <img src="images/phone.svg" alt="phone">
+            <div>
+              <span>
+                1376-109-1043
+              </span>
+              <span>
+                +886-931-246-210
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="slogan">
+          <span>I like exercise and good food.</span>
+          <span>I love coding and work with people.</span>
+          <span>I am eagar to become a Back-end developer.</span>
+        </div>
+      </div>
     </div>
-    <div class="card">
-      <ul>
-        <li class="list_inline">
-          <a href="www.linkedin.com/in/思廷-陳-78a480142" target="_blank">
-            <i class="fab fa-linkedin-in"></i>
-            <br>
+    <div class="container">
+      <div class="skills">
+        <h3>SKILLS</h3>
+        <div class="line" style="width: 50px;"></div>
+        <div class="skilldiv">
+          <div class="row">
+            <div class="skill">
+              <img src="images/ruby.svg" alt="Ruby on rails">
+              <p>Ruby on rails</p>
+            </div>
+            <div class="skill">
+              <img src="images/html.svg" alt="HTML">
+              <p>HTML</p>
+            </div>
+            <div class="skill">
+              <img src="images/css.svg" alt="CSS">
+              <p>CSS</p>
+            </div>
+            <div class="skill">
+              <img src="images/javascript.svg" alt="Javascript">
+              <p>Javascript</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="skill">
+              <img src="images/weixin.svg" alt="Weixin develop">
+              <p>Weixin develop</p>
+            </div>
+            <div class="skill">
+              <img src="images/figma.svg" alt="Figma">
+              <p>Figma</p>
+            </div>
+            <div class="skill">
+              <img src="images/illstrator.svg" alt="Illstrator">
+              <p>Illstrator</p>
+            </div>
+            <div class="skill">
+              <img src="images/photoshop.svg" alt="Photoshop">
+              <p>Photoshop</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="experience">
+        <h3>WORK EXPERIENCE</h3>
+        <div class="line" style="width: 150px;"></div>
+        <div class="job">
+          <div class="jobtitle">
+            <p class="bold p-16">Magnate Holding</p>
+            <p>Product assistant</p>
+          </div>
+          <div class="jobperiod">
+            <p class="bold">Taiwan, Taipei</p>
+            <p>2016/11-2018/09</p>
+          </div>
+          <ul class="jobdescription">
+            <li>Make, update and manage product file.</li>
+            <li>Communicate with suppliers and clients.</li>
+            <li>Collaborate with product manager and manage project schedule.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="education">
+        <h3>EDUCATION</h3>
+        <div class="line" style="width: 90px;"></div>
+        <div class="schools">
+          <div class="school">
+            <p class="date">2012/09-2016/06</p>
+            <div class="dot">
+              <img src="images/border-dot.svg" alt="border-dot">
+            </div>
+            <div class="school-detail">
+              <p class="bold">National Central University</p>
+              <p>Management Information System</p>
+            </div>
+          </div>
+          <div class="school">
+            <p class="date">2018/09-2018/12</p>
+            <div class="dot">
+              <img src="images/border-dot.svg" alt="border-dot">
+            </div>
+            <div class="school-detail">
+              <p class="bold">Le Wagon</p>
+              <p>Full-stack intensive bootcamp</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="language">
+        <h3>LANGUAGE</h3>
+        <div class="line" style="width: 90px;"></div>
+        <ul>
+          <li><span>Chinese Mandarin - Native</span></li>
+          <li><span>English - Fluent</span></li>
+          <li><span>Chinese Hokkien - Fluent</span></li>
+        </ul>
+      </div>
+
+      <div class="skills">
+        <h3>ADDITIONAL SKILLS</h3>
+        <div class="line" style="width: 158px;"></div>
+        <div class="skilldiv">
+          <div class="row">
+            <div class="skill">
+              <img src="images/sketch.svg" alt="Sketch">
+              <p>Sketch</p>
+            </div>
+            <div class="skill">
+              <img src="images/github.svg" alt="Github">
+              <p>Github</p>
+            </div>
+            <div class="skill">
+              <img src="images/slack.svg" alt="Slack">
+              <p>Slack</p>
+            </div>
+            <div class="skill">
+              <img src="images/acrobat.svg" alt="Adobe Acrobat">
+              <p>Adobe Acrobat</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="portfolio">
+        <h3>RESUME & PORTFOLIO</h3>
+        <div class="line" style="width: 176px;"></div>
+        <div class="row">
+          <div class="portfolio-link"><a href="https://www.linkedin.com/in/%E6%80%9D%E5%BB%B7-%E9%99%B3-78a480142/" target="_blank">
+            <img src="images/linkedin.svg" alt="Linkedin">
             <span>LinkedIn</span>
-          </a>
-        </li>
-        <li class="list_inline">
-          <a href="https://www.facebook.com/profile.php?id=623353590" target="_blank">
-            <i class="fab fa-facebook-f"></i>
-            <br>
-            <span>Facebook</span>
-          </a>
-        </li>
-        <li class="list_inline">
-          <a href="https://github.com/KittyCake" target="_blank">
-            <i class="fab fa-github"></i>
-            <br>
+          </a></div>
+          <div class="portfolio-link"><a href="https://github.com/KittyCake" target="_blank">
+            <img src="images/github-s.svg" alt="Github">
             <span>Github</span>
-          </a>
-        </li>
-      </ul>
-    </div>
-    <div class="card">
-      <table>
-        <tbody>
-          <tr>
-            <td><img src="images/pride_and_prejudice.jpg" alt="Pride and Prejudice" width="200"></td>
-            <td>
-              <h3>Pride and Prejudice</h3>
-              <p>While the arrival of wealthy gentlemen sends her marriage-minded mother into a frenzy, willful and opinionated Elizabeth Bennet matches wits with haughty Mr. Darcy.</p>
-            </td>
-          </tr>
-          <tr>
-            <td><img src="images/lord_of_the_rings.jpeg" alt="Lord of the Rings" width="200"></td>
-            <td>
-              <h3>Lord of the Rings</h3>
-              <p>The Fellowship of the Ring embark on a journey to destroy the One Ring and end Sauron's reign over Middle-earth.</p>
-            </td>
-          </tr>
-          <tr>
-            <td><img src="images/harry_potter.jpg" alt="Harry Potter" width="200"></td>
-            <td>
-              <h3>Harry Potter</h3>
-              <p>An orphaned boy enrolls in a school of wizardry, where he learns the truth about himself, his family and the terrible evil that haunts the magical world.</p>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <div class="card">
-      <h2>About this page</h2>
-      <p>Very first beginning for my profile, and it will get better.</p>
-      <p>
-      <ul>
-        <li class="list_inline">
-          <a href="#">
-            <i class="fas fa-pastafarianism"></i>
-          </a>
-        </li>
-        <li class="list_inline">
-          <a href="#">
-            <i class="fas fa-otter"></i>
-          </a>
-        </li>
-        <li class="list_inline">
-          <a href="#">
-            <i class="fas fa-oil-can"></i>
-          </a>
-        </li>
-      </ul>
-      </p>
+          </a></div>
+          <div class="portfolio-link">
+            <img src="images/portfolio.svg" alt="Portfolio">
+            <span>Profolio</span>
+          </div>
+        </div>
+        <div class="qrcode">
+          <img src="images/qrcode.svg" alt="QRcode">
+          <p>QRcode</p>
+        </div>
+      </div>
+
     </div>
   </div>
 </body>

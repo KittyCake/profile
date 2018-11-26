@@ -1,0 +1,21 @@
+.portfolio-link {
+  width: 70px;
+}
+
+.qrcode {
+  width: 80px;
+  margin-right: 30px;
+}
+
+/*.portfolio ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}*/
+
+.portfolio .row div {
+  width: 50px;
+/*  text-align: left;
+  display: flex;
+  align-items: center;
+*/}

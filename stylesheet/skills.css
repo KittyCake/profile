@@ -1,0 +1,9 @@
+.skill {
+  width: 25%;
+}
+
+.skill p {
+  margin-top: 5px;
+  font-size: 12px;
+  line-height: 13px;
+}
